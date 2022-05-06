@@ -1,8 +1,8 @@
-var producto = [5]
+var producto = [5];
     for(i = 0; i <5; i++){
-        prfoducto[i] = prompt("ingrese ua fruta")
+        producto[i] = prompt("ingrese ua fruta");
     }
-    for(i = 0; i <5; i++){
-        document.write(producto[i])
+    for(i = 0; i <producto.length; i++){
+        document.write(producto[i] + "<br>");
     }
 
